@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #8D7FF2;
+}
+.navbar .nav-item {
+  color: white;
+}
+
+.container h2, .container h1, .container {
+  margin-top: 18px;
+}
+
+.container h1 {
+  margin-bottom: 18px;
+}
+.container h2 {
+  font-size: 25px;
+}
+
+table {
+  width: 100%;
+}
+table th {
+  font-weight: 500;
+  font-size: 25px;
+  border-bottom: 2px solid gray;
+}
+table td {
+  padding-top: 8px;
+}
+
+.card {
+  margin-top: 18px;
+  margin-left: 5px;
+  width: 345px;
+}
+.card .card-img-top {
+  height: 255px;
+}
+
+#plants {
+  width: 70%;
+}
+
+@media print {
+  .screen-only {
+    display: none;
+  }
+}
+.small-screen {
+  margin-top: 18px;
+}
+@media screen and (min-width: 600px) {
+  .small-screen {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=project0.css.map */

@@ -1,0 +1,70 @@
+$h2font: 25px;
+$margin: 18px;
+
+.navbar {
+    background-color:#8D7FF2;
+
+    .nav-item {
+        color:white;
+    }
+}
+
+%box {
+    margin-top: $margin;
+}
+
+.container {
+    @extend %box;
+
+    h1 {
+        @extend %box;
+        margin-bottom: $margin;
+    }
+
+    h2 {
+        @extend %box;
+         font-size: $h2font;
+     }
+}
+
+table {
+    width: 100%;
+
+    th {
+        font-weight: 500;   
+        font-size: $h2font;
+        border-bottom: 2px solid gray;
+    }
+
+    td {
+        padding-top: 8px;
+    }
+}
+
+.card {
+    margin-top: $margin;
+    margin-left: 5px;
+    width: 345px;
+
+    .card-img-top {
+        height: 255px;
+    }
+}
+
+#plants {
+    width: 70%;
+}
+
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+
+
+.small-screen {
+    @media screen and (min-width: 600px) {
+        display: none;
+    }
+    margin-top: $margin;
+}
